@@ -1,0 +1,36 @@
+#sample {
+    width: 50%;
+    height: 250px;
+    background-color: black;
+    border-radius: 0px 0px 0px 0px;
+}
+
+#clipboard {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#blr, #brr, #tlr, #trr, h1 {
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+input[type="text"]::placeholder {  
+    text-align: center; 
+} 
+
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Preview</title>
+</head>
+<body>
+    <h1>CSS Radius Previewer</h1>
+    <div class = "container">
+        <div id = "sample">
+        
+        </div>
+    </div>
+    <span class = "container"><input type = "text" value = "" id = "clipboard" readonly onclick="clipboard()"></span>
+    <hr>
+    <div class = "container">
+        <input type="text" id = "tlr" placeholder="Top Left Radius" onchange="preview()">
+        <input type="text" id = "trr" placeholder="Top Right Radius" onchange="preview()">
+        <input type="text" id = "blr" placeholder="Bottom Left Radius" onchange="preview()">
+        <input type="text" id = "brr" placeholder="Bottom Right Radius" onchange="preview()">
+    </div>
+</body>
+</html>
+
+<script src = '/previewer.js'></script>
